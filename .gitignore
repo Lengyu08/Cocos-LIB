@@ -1,0 +1,19 @@
+# 先忽略全部
+*
+
+# 保留 gitignore 自己
+!.gitignore
+
+# 保留源码和说明
+!*.ts
+!*.js
+!*.d.ts
+!README.md
+!LICENSE
+
+# 如果以后有配置文件，也保留
+!package.json
+!tsconfig.json
+
+# 明确忽略 Cocos meta
+*.meta
